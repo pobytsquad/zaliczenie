@@ -1,0 +1,60 @@
+html, body
+{
+    font-size: 1em; 
+    font-family: verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+#header, #footer 
+{
+    color: white;
+    background: rgb(8, 133, 196);
+    text-align: center;
+    font-family: 'Arial';
+    padding: 10px;
+}
+
+#menu 
+{
+    width: 20%;
+    height: 500px;
+    background:rgb(96, 161, 194);
+    color: rgb(255,255,255);
+    text-align: left;
+    float: left;
+}
+
+#content
+{
+    width: 80%;
+    height: 500px;
+    color: rgb(0,0,0);
+    float: left;
+}
+
+#footer 
+{
+    clear: both;
+}
+
+a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: #faffc9;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #cb8583;
+    text-decoration: none;
+}
+
+p
+{
+    padding: 5px;
+}
